@@ -60,10 +60,12 @@ ul {
 
 /* container  */
 .container {
-	width: 1200px;
+	width: 1158px;
 	margin-left: auto;
 	margin-right: auto;
 	border: 2px solid black;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 
@@ -207,7 +209,10 @@ body {
   |============================
 */
 
-.header {}
+.header {
+	border-bottom: 1px solid #e7e9fc;
+
+}
 
 .header-nav {
 	margin: auto;
@@ -231,6 +236,9 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--main-txt-cl);
 	text-decoration: none;
+	display: block;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .address-header {
@@ -264,7 +272,7 @@ body {
   |============================
 */
 .main-section {
-	background-color: #2E2F42;
+	background-color: #2e2f42;
 }
 
 .main-title {
@@ -296,9 +304,6 @@ body {
    |============================
  */
 
-.main-section {}
-
-
 .main-box {}
 
 .main-caption {
@@ -312,16 +317,11 @@ body {
 
 }
 
-.main-text {
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
-	color: #434455;
+.main-txt {
 	background-color: #FFFFFF;
 
 }
+
 
 /* section3 or section4 style */
 /* footer */
@@ -354,7 +354,15 @@ body {
 	background-color: #FFFFFF;
 }
 
-
+.main-text {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #F4F4FD;
+}
 
 .logo-studio-end {
 	color: #f4f4fd;
@@ -454,8 +462,9 @@ body {
 
 
 /* footer */
-.portfolio {
-	background: #2E2F42;
+.portfolio-footer {
+
+	background-color: #2E2F42;
 }
 
 
