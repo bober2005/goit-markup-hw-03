@@ -28,7 +28,7 @@
 	--main-btn-color: var(--iris);
 	--portfolio-btn-cl: var(--cloud)
 }
-  
+
 /* list,link h,p and img */
 
 .list {
@@ -46,18 +46,24 @@ h2,
 h3,
 h4,
 h5 {
-  margin: 0;
+	margin: 0;
+}
+
+img {
+	display: block;
 }
 
 ul {
-  margin: 0;
-  padding-left: 0;
+	margin: 0;
+	padding-left: 0;
 }
+
 /* container  */
-.container{
-
-
-
+.container {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid black;
 }
 
 
@@ -89,10 +95,17 @@ body {
 	padding: 0px;
 	font-family: "Raleway", sans-serif;
 	text-decoration: none;
+	margin-right: 24px;
 }
 
 .logo-studio {
 	color: var(--main-txt-cl);
+
+}
+
+.header-container {
+	display: flex;
+	align-items: center;
 
 }
 
@@ -196,9 +209,17 @@ body {
 
 .header {}
 
-.header-nav {}
+.header-nav {
+	margin: auto;
+}
 
 .header-logo {}
+
+.header-im {
+	display: flex;
+	gap: 40px;
+
+}
 
 .header-item {}
 
@@ -210,6 +231,12 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--main-txt-cl);
 	text-decoration: none;
+}
+
+.address-header {
+	display: flex;
+	gap: 40px;
+
 }
 
 .contacts {
