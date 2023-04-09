@@ -76,7 +76,10 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
-
+.section {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
 
 /**
   |============================
@@ -169,7 +172,6 @@ body {
 
 .header-address:focus {
 	color: #404bbf;
-
 }
 
 .header-email:focus {
@@ -215,16 +217,18 @@ body {
 }
 
 .header-nav {
-	margin: auto;
 	display: flex;
-	align-items: center;
+	margin-right: auto;
 }
 
-.header-logo {}
+
+.header-logo {
+	margin-right: 77px;
+}
 
 .header-im {
 	display: flex;
-
+	gap: 40px;
 }
 
 .header-item {}
@@ -245,7 +249,6 @@ body {
 .address-header {
 	display: flex;
 	gap: 40px;
-
 }
 
 .contacts {
@@ -263,6 +266,9 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--addres-txt-cl);
 	text-decoration: none;
+	display: block;
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
 
 
@@ -272,8 +278,15 @@ body {
   |  section1 style
   |============================
 */
+.iteam-list {
+	display: flex;
+	gap: 24px;
+}
+
 .main-section {
 	background-color: #2e2f42;
+	padding-top: 188px;
+	padding-bottom: 188px;
 }
 
 .main-title {
@@ -284,6 +297,8 @@ body {
 	text-align: center;
 	letter-spacing: 0.02em;
 	color: #ffffff;
+	max-width: 496px;
+	margin-left: 316px;
 }
 
 .btn {
@@ -297,6 +312,13 @@ body {
 	background-color: var(--main-btn-color);
 	font-family: "Roboto", sans-serif;
 	cursor: pointer;
+	display: block;
+	margin-left: 480px;
+	margin-top: 59px;
+	min-width: 169px;
+	height: 56px;
+	border: none;
+	border-radius: 4px;
 }
 
 /**
@@ -315,7 +337,19 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--main-txt-cl);
 	text-transform: capitalize;
+	margin-bottom: 8px;
+	text-align: center;
 
+}
+
+.section-doing {
+	display: flex;
+	gap: 24px;
+
+}
+
+.iteam-doing {
+	width: calc((100% - 48px) / 3);
 }
 
 .main-txt {
@@ -340,6 +374,7 @@ body {
 	color: var(--main-txt-cl);
 	text-transform: capitalize;
 	background-color: #FFFFFF;
+	margin-bottom: 72px;
 }
 
 .section-the-end {
@@ -349,6 +384,7 @@ body {
 
 .section-end {
 	background-color: #FFFFFF;
+	width: calc((100% - 3 * 24px) / 4) 
 }
 
 .box {
@@ -368,6 +404,20 @@ body {
 .logo-studio-end {
 	color: #f4f4fd;
 
+}
+
+.portfolio {
+	background-color: #2E2F42;
+}
+
+.team {
+	display: flex;
+	gap: 24px;
+}
+
+.my-team {
+	padding: 32px 16px;
+	border-radius: 0px 0px 4px 4px;
 }
 
 /**
@@ -464,7 +514,6 @@ body {
 
 /* footer */
 .portfolio-footer {
-
 	background-color: #2E2F42;
 }
 
