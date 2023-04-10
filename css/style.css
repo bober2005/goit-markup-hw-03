@@ -221,11 +221,12 @@ body {
 .header-nav {
 	display: flex;
 	margin-right: auto;
+	align-items: center;
 }
 
 
 .header-logo {
-	margin-right: 77px;
+	margin-right: 76px;
 }
 
 .header-im {
