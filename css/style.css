@@ -152,6 +152,7 @@ body {
 .navigation-button:hover {
 	color: #FFFFFF;
 	background-color: #404BBF;
+	border: 1px solid transparent;
 }
 
 
@@ -200,7 +201,7 @@ body {
 .navigation-button:focus {
 	color: #FFFFFF;
 	background-color: #404BBF;
-
+	border: 1px solid transparent;
 }
 
 
@@ -468,6 +469,18 @@ body {
 
 }
 
+.portfolio-button {
+	display: flex;
+	justify-self: center;
+	gap: 24px;
+}
+
+.navigation-button {
+	padding: 12px 24px;
+	border: 1px solid #e7e9fc;
+	border-radius: 4px;
+}
+
 .portfolio-list {
 	display: flex;
 	gap: 40px;
@@ -514,9 +527,10 @@ body {
 }
 
 
-.main-portfolia{
+.main-portfolia {}
 
-	
+.section-portfolio {
+	padding: 96px 0 120px
 }
 
 
