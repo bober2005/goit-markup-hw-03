@@ -352,7 +352,7 @@ body {
 }
 
 .iteam-doing {
-	flex-basis: calc((100% - 48px) / 3)
+	flex-basis: calc((100% - 48px)3)
 }
 .main-txt {
 	background-color: #FFFFFF;
