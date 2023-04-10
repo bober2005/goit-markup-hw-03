@@ -482,7 +482,7 @@ body {
 	display: block;
 	padding-top: 30px;
 	padding-bottom: 30px;
-
+	padding: 24px 0
 }
 
 .address-list {
@@ -511,6 +511,12 @@ body {
 	display: block;
 	padding-bottom: 30px;
 	padding-top: 30px;
+}
+
+
+.main-portfolia{
+
+	
 }
 
 
