@@ -416,11 +416,13 @@ body {
 .portfolio {
 	background-color: #2E2F42;
 	padding: 100px 0;
+
+}
+
+.header-logo-end {
 	display: inline-block;
 	margin-bottom: 16px;
 }
-
-.header-logo-end {}
 
 .my-team {
 	padding: 32px 16px;
@@ -438,6 +440,16 @@ body {
 
 /* header-portfolio */
 
+.footer-div {
+	display: flex;
+	align-items: center;
+}
+
+.header-portfolia {
+	border-bottom: 1px solid #e7e9fc
+}
+
+
 /* logo portfolio  */
 .logo-portfolio {
 	font-family: 'Raleway', sans-serif;
@@ -448,10 +460,17 @@ body {
 	text-transform: uppercase;
 	color: #4d5ae5;
 	text-decoration: none;
+	margin-right: 76px;
 }
 
 .logo-span {
 	color: #2e2f42;
+
+}
+
+.portfolio-list {
+	display: flex;
+	gap: 40px;
 
 }
 
@@ -460,10 +479,24 @@ body {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #2e2f42;
+	display: block;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+.address-list {
+	display: flex;
+	gap: 40px;
+
 }
 
 
-
+.nav-portfolia {
+	display: flex;
+	align-items: center;
+	margin-right: auto;
+}
 
 .portfolio-addres {
 	font-style: normal;
@@ -475,7 +508,9 @@ body {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #434455;
-
+	display: block;
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
 
 
