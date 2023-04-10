@@ -381,7 +381,7 @@ body {
 
 .team-list {
 	display: flex;
-
+	gap: 24px;
 
 }
 
@@ -582,6 +582,7 @@ body {
 	line-height: 24px;
 	letter-spacing: 0.02em;
 	color: #2E2F42;
+	margin-bottom: 8px;
 }
 
 /* p  */
